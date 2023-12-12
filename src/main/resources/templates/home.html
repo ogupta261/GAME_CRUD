@@ -1,14 +1,103 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:td="http://www.tdymeleaf.org">
 <head>
     <title>GAME CRUD</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<h1>Form</h1>
-<!-- <form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
-    <p>Id: <input type="text" th:field="*{id}" /></p>
-    <p>Message: <input type="text" th:field="*{content}" /></p>
+<h1>Welcome to Om's Game CRUD Application!</h1>
+<br>
+<h2>To build a backend service “Game CRUD”.</h2>
+<h3>“GAME” Table Schema :</h3>
+<table>
+    <tbody>
+    <tr>
+        <td>ID</td>
+        <td>: BIGINT SEQUENCE</td>
+    </tr>
+    <tr>
+        <td>NAME</td>
+        <td>: VARCHAR</td>
+    </tr>
+    <tr>
+        <td>URL</td>
+        <td>: VARCHAR</td>
+    </tr>
+    <tr>
+        <td>AUtdOR</td>
+        <td>: VARCHAR</td>
+    </tr>
+    <tr>
+        <td>PUBLISHED_DATE</td>
+        <td>: DATE</td>
+    </tr>
+    </tbody>
+</table>
+<h3>API’s built :</h3>
+<table>
+    <tbody>
+    <tr>
+        <td><strong>FUNCTION</strong></td>
+        <td><strong>METHOD</strong></td>
+        <td><strong>API</strong></td>
+        <td><strong>QUERY PARAMETERS</strong></td>
+        <td><strong>BODY</strong></td>
+        <td><strong>RETURNS</strong></td>
+    </tr>
+    <tr>
+        <td><strong>Create Single Game</strong></td>
+        <td>POST</td>
+        <td><strong>/</strong>createGame</td>
+        <td>NA</td>
+        <td>Game (object)</td>
+        <td>Game (object)</td>
+    </tr>
+    <tr>
+        <td><strong>Read Single Game</strong></td>
+        <td>GET</td>
+        <td><strong>/</strong>getGame</td>
+        <td>ID (long)</td>
+        <td>NA</td>
+        <td>Game (object)</td>
+    </tr>
+    <tr>
+        <td><strong>Get All Games</strong></td>
+        <td>GET</td>
+        <td><strong>/</strong>getAllGames</td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>ArrayList <sub>game</sub></td>
+    </tr>
+    <tr>
+        <td><strong>Update Single Game</strong></td>
+        <td>PUT</td>
+        <td><strong>/</strong>updateGame</td>
+        <td>ID (long)</td>
+        <td>Game (object)</td>
+        <td>Game (object)</td>
+    </tr>
+    <tr>
+        <td><strong>Delete Single Game</strong></td>
+        <td>DELETE</td>
+        <td><strong>/</strong>deleteGame</td>
+        <td>ID (long)</td>
+        <td>NA</td>
+        <td>String</td>
+    </tr>
+    <tr>
+        <td><strong>Swagger UI</strong></td>
+        <td>NA</td>
+        <td><strong>/</strong>swagger.html</td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>NA</td>
+    </tr>
+    </tbody>
+</table>
+<h3>#Add_Some_Swagger</h3>
+<!-- <form action="#" td:action="@{/greeting}" td:object="${greeting}" metdod="post">
+    <p>Id: <input type="text" td:field="*{id}" /></p>
+    <p>Message: <input type="text" td:field="*{content}" /></p>
     <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
 </form> -->
 </body>

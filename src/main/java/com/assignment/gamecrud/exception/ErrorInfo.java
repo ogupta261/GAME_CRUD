@@ -1,4 +1,4 @@
-package com.assignment.useraccount.exception;
+package com.assignment.gamecrud.exception;
 
 public class ErrorInfo {
     private String message;

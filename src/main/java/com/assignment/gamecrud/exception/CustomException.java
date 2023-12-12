@@ -1,4 +1,4 @@
-package com.assignment.useraccount.exception;
+package com.assignment.gamecrud.exception;
 
 public class CustomException extends RuntimeException{
     private static final long serialVersionUID = 106976543L;

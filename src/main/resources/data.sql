@@ -1,0 +1,2 @@
+insert into game(name, author, url, published_date) values('8 Ball Pool', 'Miniclip', 'https://8ballpool.com/en/game', '2010-10-01');
+insert into game(name, author, published_date) values('Counter Strike', 'Valve', '2000-11-09');

@@ -1,4 +1,4 @@
-package com.assignment.useraccount.exception;
+package com.assignment.gamecrud.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
