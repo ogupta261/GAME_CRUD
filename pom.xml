@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.assignment</groupId>
-	<artifactId>game-crud</artifactId>
+	<artifactId>travel-agency</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>game-crud</name>
